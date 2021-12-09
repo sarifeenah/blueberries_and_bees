@@ -1,0 +1,28 @@
+//I wanted to find out how many bees it took (in total) to pollinate all 777 fruitsets over the blooming season.  I turned to SQL for that task.//
+
+SELECT
+  COUNT(fruitset) AS N_Fruitsets,
+  ROUND(SUM(fruitmass), 2) AS Total_Fruitmass,
+  ROUND(SUM(honeybee), 2) AS Total_Honeybee,
+  ROUND(SUM(bumbles), 2) AS Total_Bumble,
+  ROUND(SUM(andrena), 2)  AS Total_Andrena,
+  ROUND(Sum(osmia), 2) AS Total_Osmia,
+  ROUND(SUM(honeybee), 2) + ROUND(SUM(bumbles), 2) + ROUND(SUM(andrena), 2)  + ROUND(Sum(osmia), 2)  AS Total_Pollinaters
+FROM
+  `blueberries-and-bees.WildBlueberryPollinationSimulationData.full_data`
+  
+  // To see the results of that pollination, I wanted to get see how much rain fell, and how big and juicy the fruit got.
+  SQL again!//
+  
+  
+  SELECT
+    COUNT(fruitset) AS N_Fruitsets,
+    ROUND(SUM(honeybee), 2) + ROUND(SUM(bumbles), 2) + ROUND(SUM(andrena), 2) + ROUND(Sum(osmia), 2)  AS Total_Pollinaters,
+    ROUND(AVG(RainingDays), 2) AS Avg_Days_of_Rain,
+    ROUND(Avg(clonesize), 2) AS Avg_Clonesize, 
+    ROUND(AVG(fruitmass),2) AS Avg_Fruitmass,
+    ROUND(AVG(seeds),2) AS Avg_Seeds,
+    ROUND(SUM(yield), 2) AS Total_Yield, 
+  
+  FROM
+    `blueberries-and-bees.WildBlueberryPollinationSimulationData.full_data`
