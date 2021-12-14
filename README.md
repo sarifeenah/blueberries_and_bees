@@ -9,6 +9,7 @@ Includes:
 ### SQL Results:
 #### How Many Bee's Does It Take?
 ![](/docs/sql_query_2.png)
+
 #### How much rain?
 ![](/docs/sql_query_1.png)
 
