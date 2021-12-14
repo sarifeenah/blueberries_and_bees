@@ -8,9 +8,9 @@ Includes:
 3. Text file of Big Query SQL queries
 ### SQL Results:
 #### How Many Bee's Does It Take?
-![SQL Query, How Many Bee's Does It Take?](https://github.com/slaing77/blueberries_and_bees/blob/main/sql_query_2.png)
+![sql_query_1](https://github.com/slaing77/blueberries_and_bees/blob/main/sql_query_2.png)
 
-![SQL Query exploration of data](https://github.com/slaing77/blueberries_and_bees/blob/main/sql_query_1.png)
+![sql_query_2](https://github.com/slaing77/blueberries_and_bees/blob/main/sql_query_1.png)
 
 ### Tableau Dashboard Screen Shot
-![Blueberries & Bees Dashbopard](https://github.com/sarifeenah/blueberries_and_bees/blob/main/Blueberry%20Harvest.png)
+![Blueberries & Bees Dashbopard](https://github.com/slaing77/blueberries_and_bees/blob/main/blueberry_harvest.png)
