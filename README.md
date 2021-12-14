@@ -4,7 +4,7 @@
 Includes:
 1. Jupyter Notebook
 2. Tableau Dashboard
-(([Blueberries& Bees](https://public.tableau.com/views/BlueberriesBees/BlueberryHarvest?:language=en-US&:display_count=n&:origin=viz_share_link))
+[Blueberries& Bees](https://public.tableau.com/views/BlueberriesBees/BlueberryHarvest?:language=en-US&:display_count=n&:origin=viz_share_link)
 3. Text file of Big Query SQL queries
 ### SQL Results:
 #### How Many Bee's Does It Take?
